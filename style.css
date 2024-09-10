@@ -70,6 +70,10 @@ h1 {
     max-width:250px;
     font-family:'Hepta Slab', Helvetica, Arial;
     margin:0 auto 50px auto;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
 }
 .pizza-item a {
     display:flex;
