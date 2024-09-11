@@ -70,10 +70,7 @@ h1 {
     max-width:250px;
     font-family:'Hepta Slab', Helvetica, Arial;
     margin:0 auto 50px auto;
-    border: 1px solid rgb(211, 211, 211);
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+
 }
 .pizza-item a {
     display:flex;
@@ -212,8 +209,10 @@ h1 {
     font-weight: normal;
 }
 .pizzaInfo--price {
+    font-size: 1.5em;
     display:flex;
     align-items:center;
+    font-weight: bold;
 }
 .pizzaInfo--actualPrice {
     font-size:28px;
@@ -264,6 +263,11 @@ h1 {
     text-align:center;
     line-height: 40px;
     margin-bottom:30px;
+    cursor: pointer;
+    background-color: #63f77c;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
 }
 .cart {
     margin-bottom:20px;
@@ -394,6 +398,7 @@ h1 {
     .pizzaBig img {
         width: 75%;
         height: auto;
+        margin-top: 30px;
     }
 
     .pizzaInfo h1 {
